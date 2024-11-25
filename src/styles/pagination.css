@@ -1,0 +1,47 @@
+.products{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:10px;
+}
+.card{
+    height: 220px;
+    width: 200px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+.card>img{
+    width: 100px;
+    object-fit: cover;
+}
+.title{
+    text-align: center;
+}
+.pages-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prev-span{
+    margin: 0.5rem;
+    cursor: pointer;
+}
+.next-span{
+    margin: 0.5rem;
+    cursor: pointer;
+
+}
+.numbers{
+    padding: 1rem;
+    cursor: pointer;
+    border: 1px solid grey;
+
+}
+.active{
+    padding: 1rem;
+    cursor: pointer;
+    border: 1px solid grey;
+    background: grey;
+}
+
