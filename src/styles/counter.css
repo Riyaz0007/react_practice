@@ -1,0 +1,30 @@
+.inc-btn{
+    padding:1rem;
+    margin:1rem;
+    background-color: aqua;
+    border-radius: 3px;
+
+}
+
+.dec-btn{
+    padding:1rem;
+    margin:1rem;
+    background-color: aqua;
+    border-radius: 3px;
+
+    
+}
+
+.res-btn{
+    padding:1rem;
+    margin:1rem;
+    background-color: aqua;
+    border-radius: 3px;
+
+    
+}
+.display-count{
+    padding: 1rem;
+    margin: 1rem;
+    background-color: aqua;
+}

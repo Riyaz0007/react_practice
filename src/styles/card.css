@@ -1,0 +1,17 @@
+.main-card{
+    margin: 1rem;
+    width: 220px;
+    height: 350px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.main-card>img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.card-title{
+    text-align: center;
+}
