@@ -1,8 +1,12 @@
 import "./App.css";
-import TicTacToe from "./components/TicTocToe";
+import Search from "./components/Search";
 
 function App() {
-  return <TicTacToe boardSize={4} />;
+  return <>
+  <Search/>
+  
+  
+  </>
 }
 
 export default App;
