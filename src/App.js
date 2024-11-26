@@ -1,11 +1,8 @@
-import Toggle from "./components/Toggle";
+import "./App.css";
+import TicTacToe from "./components/TicTocToe";
 
 function App() {
-    return (
-    <>
-    <Toggle/>
-    </>
-  );
+  return <TicTacToe boardSize={4} />;
 }
 
 export default App;
